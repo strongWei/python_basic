@@ -21,7 +21,7 @@ pets = {
     "pet2":pet2,
     "pet3":pet3
 }
-print(pets)
+
 for name,petInfo in pets.items():
     print(name + '\n')
     for key,value in petInfo.items():
